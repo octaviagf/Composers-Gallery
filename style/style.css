@@ -1,0 +1,59 @@
+* {margin: 0;
+padding: 0;}
+
+body {background-color: #464646;}
+
+header {background-color: #ff3b3f;
+        height: 7rem;}
+
+header h1 {font-family: monospace;
+                font-size: 40px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #efefef;
+                padding-top: 2rem;}
+
+main .card {border-radius: 0;
+        width: 30%;
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+        border: solid 2px #efefef;}
+
+main #bach {margin-top: 3rem;}
+
+main #vivaldi {margin-bottom: 3rem;}
+
+main h2 {font-family: monospace;
+        font-size: x-large;
+        font-weight: bold;
+        text-align: left;}
+
+/*XS*/
+
+@media screen and (min-width: 320px) {
+                header {height: 8rem;}
+                header h1 {padding-top: 1rem;}
+                main .card {width: 65%;}
+                main h2 {font-size: medium;}
+}
+
+@media screen and (min-width: 398px) {
+                header h1 {padding-top: 2.5rem;}
+                main h2 {font-size: large;}
+}
+
+@media screen and (min-width: 1024px) {
+                main .card {width: 50%;}
+                main h2 {font-size: x-large;}
+}
+
+@media screen and (min-width: 1280px) {
+                header {height: 10rem;}
+                header h1 {font-size: 60px;}
+                main .card {width: 45%;}
+}
+
+@media screen and (min-width: 1440px) {
+                main h2 {font-size: 35px;}
+}
